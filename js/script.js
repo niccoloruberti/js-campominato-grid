@@ -3,7 +3,6 @@
 //dichiaro le variabili
 const grid = document.getElementById('grid');
 const bottone = document.getElementById('generator');
-let cell;
 
 //creo la funzione che mi permette di creare le celle
 function createCell() {
@@ -18,7 +17,7 @@ bottone.addEventListener('click', function() {
     for (let counter = 1; counter <= 100; counter++) {
         console.log(counter)
         //creo una nuova cella
-        cell = createCell();
+        let cell = createCell();
         //inserisco il testo nella cella
         cell.innerText = counter;
         //creo un evento relativo al click sulla singola cella che gli fa cambiare colore

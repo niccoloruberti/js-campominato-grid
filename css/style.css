@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: roboto, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 5px;
+}
+
+#generator {
+    margin: 15px 5px;
+    padding: 5px 30px;
+}
+
 main {
     background-color: rgb(127, 255, 212);
 }
